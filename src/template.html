@@ -11,289 +11,315 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
-    <!-- Put here your site title -->
-    <title>Emir Mustafoski | Developer</title>
-    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
-    <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
-    <!-- Required librarys -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-      ScrollReveal({ reset: false });
-    </script>
+  <!-- Put here your site title -->
+  <title>Emir Mustafoski | Developer</title>
+  <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+  <meta name="keywords" content="[username], [name], skill" />
+  <!-- Improve your SEO by adding a small descrption of you -->
+  <meta name="description" content="[Your name here] | Developer" />
 
-    <!-- Remove this script once you setup your custom portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-  </head>
+  <!-- Required librarys -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal({
+      reset: false
+    });
+  </script>
 
-  <!-- Follow the HTML instructions to create your stunning portfolio website -->
-  <body>
-    <div id="top"></div>
+  <!-- Remove this script once you setup your custom portfolio -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
 
-    <!-- **** Hero Section **** -->
-    <div id="hero" class="jumbotron">
-      <div class="container">
-        <h1 class="hero-title" class="load-hidden">
-          Hi, my name is <span class="text-color-main">Emir Mustafoski</span>
-          <br />
-          I'm the Web Developer.
-        </h1>
-        <p class="hero-cta" class="load-hidden">
-          <a class="cta-btn cta-btn--hero" href="#about">Hire me!</a>
-        </p>
+<!-- Follow the HTML instructions to create your stunning portfolio website -->
+
+<body>
+  <div id="top"></div>
+
+  <!-- **** Hero Section **** -->
+  <div id="hero" class="jumbotron">
+    <div class="container">
+      <h1 class="hero-title" class="load-hidden">
+        Hi, my name is <span class="text-color-main">Emir Mustafoski</span>
+        <br />
+        I'm the Web Developer.
+      </h1>
+      <p class="hero-cta" class="load-hidden">
+        <a class="cta-btn cta-btn--hero" href="#about">Hire me!</a>
+      </p>
+    </div>
+  </div>
+  <!-- /END Hero Section -->
+
+  <!-- **** About Section **** -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">
+        About me
+      </h2>
+      <div class="row about-wrapper">
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__image">
+            <img class="img-fluid rounded shadow-lg" height="auto" width="300px" src="./assets/profile.jpeg"
+              alt="Profile Image" />
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              Skilled Web Developer that enjoy working with various web technologies and latest
+              with changing priorities, development methodologies, and technical solutions. Provide ongoing
+              features for better performance.
+            </p>
+            <p class="about-wrapper__info-text">
+              Prepared to work in a high-impact, dynamic environment
+              maintenance, support and enhancements in existing systems and platforms.
+              Work alongside other engineers on the team to elevate technology and consistently apply best practices
+            </p>
+            <span class="d-flex mt-3">
+              <a target="_blank" class="cta-btn cta-btn--resume"
+                href="https://www.yumpu.com/en/document/read/65162878/emir-mustafoski-new">
+                View Resume
+              </a>
+            </span>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- /END Hero Section -->
+  </section>
+  <!-- /END About Section -->
 
-    <!-- **** About Section **** -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title">
-          About me
+  <!-- **** Projects Section **** -->
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">
+          Projects
         </h2>
-        <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image">
-              <img
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="./assets/profile.jpeg"
-                alt="Profile Image"
-              />
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">MEAN Stack</h3>
+              <div>
+                <p class="mb-4">
+                  A MEAN ( MongoDB, Express.js, Angular.js, and Node) Stack about orders
+                  where according to the food and drinks customer orders we have rule association
+                  algorithm Apriori to predict if customer orders a specific staff what is the
+                  possibility to order with.
+                  #HINT: Live Version has a problem
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="#">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Mustafoski/MEANStack">
+                Source Code
+              </a>
             </div>
           </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info">
-              <p class="about-wrapper__info-text">
-                Skilled Web Developer that enjoy working with various web technologies and latest
-                with changing priorities, development methodologies, and technical solutions. Provide ongoing
-                features for better performance.
-              </p>
-              <p class="about-wrapper__info-text">
-                Prepared to work in a high-impact, dynamic environment
-                maintenance, support and enhancements in existing systems and platforms.
-                Work alongside other engineers on the team to elevate technology and consistently apply best practices
-              </p>
-              <span class="d-flex mt-3">
-                <a target="_blank" class="cta-btn cta-btn--resume" href="https://www.yumpu.com/en/document/read/65162878/emir-mustafoski-new">
-                  View Resume
-                </a>
-              </span>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/MEANStack.png" />
+                </div>
+              </a>
             </div>
           </div>
         </div>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Quote Generator</h3>
+              <div>
+                <p class="mb-4">
+                  A simple JavaScript, HTML and CSS3 project named Quote Generator where
+                  we use Twitter API and Quote API also I've been using ES6 features like
+                  async await. Main purpose of this project is how with simple features you
+                  can acomplish something beautiful and responsive.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero"
+                href="https://mustafoski.github.io/Quote-Generator-JavaScript/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/Mustafoski/Quote-Generator-JavaScript">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/quote-generator.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Infinite Scroll</h3>
+              <div>
+                <p class="mb-4">
+                  JavaScript Application with random photos from Unsplash API, In the project are new
+                  ES6 feature like async await and it is deployed on Netlify. To see the project click on
+                  Live Preview
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://infinite-scroll-javascript.netlify.app/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/Mustafoski/InfiniteScroll-JavaScript">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/InfiniteScroll.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Weather App</h3>
+              <div>
+                <p class="mb-4">
+                  React simple project with openweatherapi. React 17 with function components
+                  With a lot of CSS styles to make it more beautiful.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://react-app-weather-api.netlify.app/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Mustafoski/Weather-App-React">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/weather.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Joke Teller</h3>
+              <div>
+                <p class="mb-4">
+                  Basic Joke Teller Web Application coded with HTML5 CSS3 and JavaScript with 2 API's
+                  VoiceRSS and Joke API.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://joke-teller-js.netlify.app/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/Mustafoski/Joke-Teller-JavaScript">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/Joke.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
       </div>
-    </section>
-    <!-- /END About Section -->
+    </div>
+  </section>
+  <!-- /END Projects Section -->
 
-    <!-- **** Projects Section **** -->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">
-            Projects
-          </h2>
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">MEAN Stack</h3>
-                <div>
-                  <p class="mb-4">
-                    A MEAN ( MongoDB, Express.js, Angular.js, and Node) Stack about orders
-                    where according to the food and drinks customer orders we have rule association
-                    algorithm Apriori to predict if customer orders a specific staff what is the 
-                    possibility to order with.
-                    #HINT: Live Version has a problem
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Mustafoski/MEANStack">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/MEANStack.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Quote Generator</h3>
-                <div>
-                  <p class="mb-4">
-                    A simple JavaScript, HTML and CSS3 project named Quote Generator where
-                    we use Twitter API and Quote API also I've been using ES6 features like
-                    async await. Main purpose of this project is how with simple features you
-                    can acomplish something beautiful and responsive. 
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://mustafoski.github.io/Quote-Generator-JavaScript/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Mustafoski/Quote-Generator-JavaScript">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/quote-generator.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Infinite Scroll</h3>
-                <div>
-                  <p class="mb-4">
-                    JavaScript Application with random photos from Unsplash API, In the project are new
-					ES6 feature like async await and it is deployed on Netlify. To see the project click on
-					Live Preview
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://infinite-scroll-javascript.netlify.app/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Mustafoski/InfiniteScroll-JavaScript">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/InfiniteScroll.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-		  
-		      <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Weather App</h3>
-                <div>
-                  <p class="mb-4">
-                    React simple project with openweatherapi. React 17 with function components
-                    With a lot of CSS styles to make it more beautiful.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://react-app-weather-api.netlify.app/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Mustafoski/Weather-App-React">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/weather.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-        </div>
-      </div>
-    </section>
-    <!-- /END Projects Section -->
-
-    <!-- **** Contact Section **** -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">
-          Contact
-        </h2>
-        <div class="contact-wrapper">
-          <p class="contact-wrapper__text">
-            [+389 70 614 730]
-            [+389 78 598 067]
-          </p>
-          <a
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:emirmustafoski92@gmail.com"
-            >Call to Action</a
-          >
-        </div>
-      </div>
-    </section>
-    <!-- /END Contact Section -->
-
-    <!-- **** Footer Section **** -->
-    <footer class="footer navbar-static-bottom">
-      <div class="container">
-        <a href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
-        <div class="social-links">
-          <a href="https://twitter.com/EmirMustafoski" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a href="https://www.facebook.com/Interview-Questions-with-JavaScript-103128948153482" target="_blank">
-            <i class="fa fa-facebook fa-inverse"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/emir-mustafoski-a81a49143/" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a href="https://github.com/Mustafoski" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
-        </div>
-
-        <hr />
-
-        <!-- If you give me some credit, will be huge for me :) -->
-        <p class="footer__text">
-          © 2020 - Template developed by <a href="https://github.com/mustafoski" target="_blank">Emir Mustafoski</a>
-          </a>
+  <!-- **** Contact Section **** -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">
+        Contact
+      </h2>
+      <div class="contact-wrapper">
+        <p class="contact-wrapper__text">
+          [+389 70 614 730]
+          [+389 78 598 067]
         </p>
-
-      
+        <a target="_blank" class="cta-btn cta-btn--resume" href="mailto:emirmustafoski92@gmail.com">Call to Action</a>
       </div>
-    </footer>
-    <!-- /END Footer Section -->
-  </body>
+    </div>
+  </section>
+  <!-- /END Contact Section -->
+
+  <!-- **** Footer Section **** -->
+  <footer class="footer navbar-static-bottom">
+    <div class="container">
+      <a href="#top" class="back-to-top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+        <a href="https://twitter.com/EmirMustafoski" target="_blank">
+          <i class="fa fa-twitter fa-inverse"></i>
+        </a>
+        <a href="https://www.facebook.com/Interview-Questions-with-JavaScript-103128948153482" target="_blank">
+          <i class="fa fa-facebook fa-inverse"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/emir-mustafoski-a81a49143/" target="_blank">
+          <i class="fa fa-linkedin fa-inverse"></i>
+        </a>
+        <a href="https://github.com/Mustafoski" target="_blank">
+          <i class="fa fa-github fa-inverse"></i>
+        </a>
+      </div>
+
+      <hr />
+
+      <!-- If you give me some credit, will be huge for me :) -->
+      <p class="footer__text">
+        © 2020 - Template developed by <a href="https://github.com/mustafoski" target="_blank">Emir Mustafoski</a>
+        </a>
+      </p>
+
+
+    </div>
+  </footer>
+  <!-- /END Footer Section -->
+</body>
+
 </html>
