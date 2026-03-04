@@ -8,6 +8,9 @@
     "start": "parcel",
     "build": "parcel build"
   },
+    "engines": {
+  "node": "24.x"
+}
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cobiwave/simplefolio"
