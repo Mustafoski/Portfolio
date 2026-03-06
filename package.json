@@ -1,16 +1,16 @@
 {
   "name": "simplefolio",
   "version": "1.0.1",
-  "private": "true",
+  "private": true,
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
   },
-    "engines": {
-  "node": "24.x"
-}
+  "engines": {
+    "node": "24.x"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cobiwave/simplefolio"
